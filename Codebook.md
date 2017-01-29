@@ -9,7 +9,7 @@ subject_train.txt, subject_test.txt - with info about subjects
 
 y_train.txt,y_test.txt - with info about activities
 
-X_train.txt,y_train.txt - with data of features for each observation
+X_train.txt,X_train.txt - with data of features values for each observation
 
 Descrition of features is contained in features.txt and feature_info.txt in original data source. For our analysis only features, which contain inforamtion about mean values and standart deviations, are selected (79 features). 
 
