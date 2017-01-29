@@ -4,8 +4,11 @@
 
 The script downloads  a data set from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
 It merges data from the following files:
+
 subject_train.txt, subject_test.txt - with info about subjects
+
 y_train.txt,y_test.txt - with info about activities
+
 X_train.txt,y_train.txt - with data of features for each observation
 
 Descrition of features is contained in features.txt and feature_info.txt in original data source. For our analysis only features, which contain inforamtion about mean values and standart deviations, are selected (79 features). 
@@ -17,11 +20,15 @@ New data set "DataFinal" contains a table of 10299 observations and subject inde
 This data set is used to create "NewData" data set with tidy data containing the following information:
 
 Subject - column of subjects;
+
 Activity - column of activities; 
 
 tBodyAcc-mean()-X
+
 tBodyAcc-mean()-Y
+
 ...........
+
 fBodyBodyGyroJerkMag-meanFreq() - columns which contains information about mean value of the parameter in all observations for corresponding (Subject,Activity) pair.
 
 Each row is a unique combination of subject and activity for all possible combinations.
