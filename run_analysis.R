@@ -62,6 +62,6 @@ run_analysis<-function(url="https://d396qusza40orc.cloudfront.net/getdata%2Fproj
   
   #Save final data set
   write.csv(NewData, file = "C:\\Users\\XXX\\Desktop\\R\\tidyDataSet.csv")
-  write.table(NewData, file = "C:\\Users\\Nastya\\Desktop\\R\\tidyDataSet.txt",row.name=FALSE)
+  write.table(NewData, file = "C:\\Users\\XXX\\Desktop\\R\\tidyDataSet.txt",row.name=FALSE)
   
   }
