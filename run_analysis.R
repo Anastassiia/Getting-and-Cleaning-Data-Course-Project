@@ -3,9 +3,9 @@ library(dplyr);
 run_analysis<-function(url="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip")
 {
   #Downloading zip file and unzip to temporary directory
-  download.file(url,"C:\\Users\\Nastya\\Desktop\\R\\DataProject.zip");
+  download.file(url,"C:\\Users\\XXX\\Desktop\\R\\DataProject.zip");
   temp<-tempdir();
-  temp<-unzip("C:\\Users\\Nastya\\Desktop\\R\\DataProject.zip");
+  temp<-unzip("C:\\Users\\XXX\\Desktop\\R\\DataProject.zip");
   
   #Create activity labels and features vectors
   activityLabels<-read.table(temp[grep("*activity",temp)]);
@@ -61,7 +61,7 @@ run_analysis<-function(url="https://d396qusza40orc.cloudfront.net/getdata%2Fproj
   NewData<-cbind(NewData,t(sapply(1:dim(NewData)[1],findMean)));
   
   #Save final data set
-  write.csv(NewData, file = "C:\\Users\\Nastya\\Desktop\\R\\tidyDataSet.csv")
+  write.csv(NewData, file = "C:\\Users\\XXX\\Desktop\\R\\tidyDataSet.csv")
   
   
   }
