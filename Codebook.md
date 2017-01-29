@@ -33,4 +33,4 @@ fBodyBodyGyroJerkMag-meanFreq() - columns which contains information about mean 
 
 Each row is a unique combination of subject and activity for all possible combinations.
 
-tidyDataSet.csv contains NewData data set. Overall it has 180 rows (30subj. * 6 activities) and 81 columns (Subject, Activity, 79 parameters).
+tidyDataSet.csv and tidyDataSet.txt contain NewData data set. Overall it has 180 rows (30subj. * 6 activities) and 81 columns (Subject, Activity, 79 parameters).
